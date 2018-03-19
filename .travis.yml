@@ -16,5 +16,7 @@ deploy:
     skip-cleanup: true
     github-token: $GITHUB_TOKEN
     local_dir: public
+    target_branch: master
+    repo: YNUCPC/ynucpc.github.io
     on:
         branch: master

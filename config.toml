@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://ynucpc.github.io/"
 languageCode = "ja-JP"
 title = "YNU.cpc -横浜国立大学競技プログラミング部-"
 theme = "universal"

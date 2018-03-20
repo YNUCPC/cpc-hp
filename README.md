@@ -47,29 +47,29 @@ git clone https://github.com/YNUCPC/cpc-hp.git
 ```
 
 ## ブログの記事の書き方
-1. 記事更新用のブランチを作成
+#### 記事更新用のブランチを作成  
 ```
 git checkout -b blog
 ```
-1. 記事のファイルを作成
+#### 記事のファイルを作成
 ```
 hugo new blog/post_name.md
 ```
-1. content/blog/post_name.mdが作成されるので、エディタで編集する
-1. 上手く出来てるか確認
+#### content/blog/post_name.mdが作成されるので、エディタで編集する
+#### 上手く出来てるか確認
 ```
 hugo server
 ```
 `http://localhost:1313`にアクセスすると確認できます
-1. 上手く出来てたらコミットしてプッシュ！
+#### 上手く出来てたらコミットしてプッシュ！
 ```
 git add content/blog/post_name.md
 git commit -m "Add new post"
 git push origin blog
 ```
-1. Pull Requestを立てる
-1. 誰かがmasterにマージする
-1. おわり
+#### Pull Requestを立てる
+#### 誰かがmasterにマージする
+#### おわり
 
 ## その他
 

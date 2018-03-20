@@ -5,6 +5,8 @@ theme = "universal"
 defaultContentLanguage = "ja"
 
 paginate = 10
+pygmentsStyle = "friendly"
+pygmentsCodeFences = true
 
 [menu]
 

@@ -1,0 +1,71 @@
+- id: home
+  translation: "ホーム"
+
+- id: templateBy
+  translation: "Template by"
+
+- id: portedBy
+  translation: "Ported to Hugo by"
+
+- id: contactGoTo
+  translation: "お問い合わせはこちら"
+
+- id: contactAddrTitle
+  translation: "住所"
+
+- id: contactTitle
+  translation: "お問い合わせ"
+
+- id: contactForm
+  translation: "メールフォーム"
+
+- id: contactName
+  translation: "お名前"
+
+- id: contactMail
+  translation: "メールアドレス"
+
+- id: contactMessage
+  translation: "本文"
+
+- id: contactSend
+  translation: "送信"
+
+- id: navHome
+  translation: "ホームへ戻る"
+
+- id: navToggle
+  translation: "Toggle Navigation"
+
+- id: categoriesTitle
+  translation: "カテゴリー"
+
+- id: searchTitle
+  translation: "検索"
+
+- id: tagsTitle
+  translation: "タグ"
+
+- id: continueReading
+  translation: "続きを読む"
+
+- id: readMore
+  translation: "記事を読む"
+
+- id: authorBy
+  translation: "投稿者"
+
+- id: recentPosts
+  translation: "最新の投稿"
+
+- id: aboutUs
+  translation: "YNU.cpcとは"
+
+- id: newer
+  translation: "前のページ"
+
+- id: older
+  translation: "次のページ"
+
+- id: publishedOn
+  translation: "on"

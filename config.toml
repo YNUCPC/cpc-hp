@@ -2,7 +2,7 @@ baseURL = "https://ynucpc.github.io/"
 languageCode = "ja-JP"
 title = "YNU.cpc -横浜国立大学競技プログラミング部-"
 theme = "universal"
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 
 paginate = 10
 
@@ -94,5 +94,5 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "最近の投稿"
-    subtitle = "ブログの最近の投稿です."
+    title = "最新の投稿"
+    subtitle = "ブログの最新の投稿です."

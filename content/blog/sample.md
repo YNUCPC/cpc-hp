@@ -39,7 +39,7 @@ categories: ["sample category"]
 using namespace std;
 
 int main(){
-    cout << "Sample" << endl;
+    cout << "C++ Sample" << endl;
 
     return 0;
 }
@@ -49,14 +49,32 @@ int main(){
 import matplotlib.pyplot as plt
 
 def main():
-    print("Sample")
+    print("Python Sample")
     return
 
 if __name__ == "__main__":
     main()
 ```
 
+```
+普通のテキスト
+```
+
+    普通のテキスト（タブ）
+
 `printf("sample\n");`
+
+$\KaTeX$による数式のサンプル
+
+$$
+    e^{i \pi} + 1 = 0
+$$
+
+文章中に$10^{10^{10^{10}}}$とか\\( a_{b_i} \\)
+
+\\[
+    \frac{d}{dx} F(x) = \frac{d}{dx} \int_{a}^{x} f(t)dt
+\\]
 
 *サンプル斜体* _italic sample_  
 **太字サンプル** __bold sample__  
@@ -75,6 +93,8 @@ _ _ _
 |:--|--:|:--:|
 |left|right|center|
 |サ|ン|プル|
+
+↑なんか表は罫線出ない
 
 <br />
 <font color="red">HTMLも書ける</font>

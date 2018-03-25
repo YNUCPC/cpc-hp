@@ -38,7 +38,7 @@ pygmentsCodeFences = true
     weight = 1
     name = "Twitter"
     url = "https://twitter.com/ynu_cpc?lang=ja"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [params]
     viewMorePostLink = "/blog/"

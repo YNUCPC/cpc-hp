@@ -90,7 +90,7 @@ pygmentsCodeFences = true
     enable = true
 
 [params.features]
-    enable = true
+    enable = false
 
 [params.testimonials]
     enable = false

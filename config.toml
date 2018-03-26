@@ -104,4 +104,4 @@ pygmentsCodeFences = true
 [params.recent_posts]
     enable = true
     title = "最新の投稿"
-    subtitle = "ブログの最新の投稿です."
+    subtitle = "ブログの最新の投稿です。"

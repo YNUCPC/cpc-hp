@@ -76,4 +76,11 @@ git push origin blog
 記事にはMarkdown記法が使用できます  
 Hugoの[universal](https://github.com/devcows/hugo-universal-theme)というテーマを使用しているので、
 詳しい機能は[デモサイト](http://themes.gohugo.io/theme/hugo-universal-theme/)と
-そのソースコードを見比べるとわかります(そのうち説明追記します)
+そのソースコードを見比べるとわかります
+
+サンプルの記事もあるので、記法について参考にしてください。  
+サンプルの記事はdraft属性がtrueになっていますが、以下のコマンドを実行すると
+draft属性がtrueになっている記事も確認することが出来ます。
+```
+hugo server -D
+```

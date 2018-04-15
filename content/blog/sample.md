@@ -94,8 +94,6 @@ _ _ _
 |left|right|center|
 |サ|ン|プル|
 
-↑なんか表は罫線出ない
-
 <br />
 <font color="red">HTMLも書ける</font>
 

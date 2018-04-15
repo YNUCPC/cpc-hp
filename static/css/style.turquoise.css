@@ -2165,6 +2165,19 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-homepage .post .read-more {
   margin-top: 20px;
 }
+#blog-post table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+#blog-post table tr {
+  border-top: 1px solid #c6cbd1;
+}
+#blog-post table th,
+#blog-post table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
 #blog-post #post-content {
   margin-bottom: 20px;
 }

@@ -84,3 +84,11 @@ draft属性がtrueになっている記事も確認することが出来ます�
 ```
 hugo server -D
 ```
+
+また、Shortcodesという機能も使用することが出来ます。  
+Shortcodeについては[こちら](https://gohugo.io/content-management/shortcodes/)を参考にしてください。
+
+#### ホームページの仕組みについて
+
+静的サイトジェネレータのHugoで作ったページを[Github Pages](https://pages.github.com/)で公開しています。  
+masterブランチにcommitすると、[Travis CI](https://travis-ci.org/)が自動的に[ynucpc.github.io](https://github.com/YNUCPC/ynucpc.github.io)リポジトリに[デプロイ](https://www.weblio.jp/content/%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4)してくれます。

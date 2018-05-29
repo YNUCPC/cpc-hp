@@ -94,7 +94,9 @@ _ _ _
 |left|right|center|
 |サ|ン|プル|
 
-<br />
-<font color="red">HTMLも書ける</font>
+---
 
-<marquee>流れるサンプル</marquee>
+<ruby>
+HTML<rt>えいちてぃーえむえる</rt>
+</ruby>
+のサンプル

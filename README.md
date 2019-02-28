@@ -88,6 +88,11 @@ hugo server -D
 また、Shortcodesという機能も使用することが出来ます。  
 Shortcodeについては[こちら](https://gohugo.io/content-management/shortcodes/)を参考にしてください。
 
+#### gitについて
+
+- 簡単な（？）説明 https://anond.hatelabo.jp/20190203175803
+- もうちょっとちゃんと知りたい人は[サルでもわかるgit入門](https://backlog.com/ja/git-tutorial/)とかを読むと良いかもしれません
+
 #### ホームページの仕組みについて
 
 静的サイトジェネレータのHugoで作ったページを[Github Pages](https://pages.github.com/)で公開しています。  

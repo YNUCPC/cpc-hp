@@ -4,6 +4,7 @@ date: 1024-02-16
 draft: true
 tags: ["sample tag1", "sample tag2"]
 categories: ["sample category"]
+banner: "img/banners/logo.png"
 ---
 
 サンプル記事
@@ -12,7 +13,43 @@ categories: ["sample category"]
 
 <!--more-->
 
-↑moreより下は一覧ページからは見えない
+↑moreより下は一覧ページからは見えない  
+`<!--more-->`より上が「要約」部分になり、一覧ページに表示されます  
+要約は`<!--more-->`が無くてもHugoが自動で作ってくれますが、  
+日本語の文章だと非常に長くなってしまいます。
+<!--
+改行は行末に半角スペースを2つ入れるとできます
+ちなみにこれはコメントで、記事には表示されません
+-->
+
+* * *
+
+# 目次
+- [記事のファイル最上部について](#記事のファイル最上部について)
+- [Markdown記法のサンプル](#Markdown記法のサンプル)
+- [Shortcodesのサンプル](#Shortcodesのサンプル)
+- [数式のサンプル](#数式のサンプル)
+
+* * *
+
+# 記事のファイル最上部について
+```
+title: ←記事のタイトルです
+date: ←記事を書いた日付です
+draft: ←下書きか否か。trueの場合下書きになり、表示されなくなります。
+tags: ←記事のタグです。何個でも指定できます
+categories: ←記事のカテゴリです。こちらも何個でも指定できます
+banner: ←記事のサムネイルです。/staticディレクトリ以下にある画像ファイルを指定するとサムネイルが設定され、記事一覧ページに表示されます
+```
+
+* * *
+
+# Markdown記法のサンプル
+
+記事にはMarkdown記法（及びHTMLタグ）が使用できます  
+Markdown記法については[こちら](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)（QiitaにおけるMarkdownの話なので、一部異なります）
+
+Markdown記法のうち使いそうなものを以下にピックアップしておきます
 
 # サンプル見出し
 ## サンプル見出し2
@@ -62,19 +99,11 @@ if __name__ == "__main__":
 
     普通のテキスト（タブ）
 
-`printf("sample\n");`
+行中に入れる場合は`printf("sample\n");`こんな感じ
 
-$\KaTeX$による数式のサンプル
-
-$$
-    e^{i \pi} + 1 = 0
-$$
-
-文章中に$10^{10^{10^{10}}}$とか\\( a_{b_i} \\)
-
-\\[
-    \frac{d}{dx} F(x) = \frac{d}{dx} \int_{a}^{x} f(t)dt
-\\]
+![画像サンプル](/img/blog/sample/logo2.png)  
+`/static/img/blog/sample/logo2.png`を読み込んでいます  
+画像ファイルを`/static`以下に置くとこのように読み込むことができます
 
 *サンプル斜体* _italic sample_  
 **太字サンプル** __bold sample__  
@@ -96,7 +125,72 @@ _ _ _
 
 ---
 
+Markdownなので、HTMLタグも使用できます  
 <ruby>
 HTML<rt>えいちてぃーえむえる</rt>
 </ruby>
 のサンプル
+
+* * *
+
+# Shortcodesのサンプル
+
+Hugo Shortcodesという機能を用いてHTMLを生成することができます。  
+Hugo Shortcodesについては[こちら](https://gohugo.io/content-management/shortcodes/)（あまり使わないので読まなくても大丈夫です）
+
+画像はMarkdown記法の他、Shortcodesを用いて↓のようにも書けます（幅を指定するときなど）
+
+{{< figure src="/img/blog/sample/logo.png" width="130" >}}
+
+ツイートの引用は、URLの末尾にあるツイートのIDを使用します。  
+`https://twitter.com/ynu_cpc/status/742345216347099136`を引用する場合
+
+{{< tweet 742345216347099136 >}}
+
+別のページへのリンクを張るとき、リンク先のページのファイル名を使って以下のように書けます
+
+[別のページへのリンク（絶対パス）]({{< ref "/about.md" >}})  
+[別の記事へのリンク（相対パス）]({{< relref "first-post.md" >}})
+
+* * *
+
+# 数式のサンプル
+
+$\KaTeX$を用いて数式を書くことが出来ます。KaTeXについては[こちら](https://katex.org/)  
+おおよそLaTeXと同じ感覚で書けるはずですが、
+未対応の機能があったり若干コマンドが違ったりしてクセがあります  
+一方で、MathJaxと比べ高速に数式を描画することができます
+
+$$
+    e^{i \pi} + 1 = 0
+$$
+
+文章中に$10^{10^{10^{10}}}$とか\\( a_{b_i} \\)
+
+\\[
+    \frac{d}{dx} F(x) = \frac{d}{dx} \int_{a}^{x} f(t)dt
+\\]
+
+複数行の数式はaligned環境が使用できます（改行の仕方がトリッキーなので注意）
+$$
+\begin{aligned}
+a_1 + a_2 + \cdots + a_N & = M \\\ ~
+\sum _{i=1} ^{N} a_i & = M
+\end{aligned}
+$$
+<!--
+本来はバックスラッシュ2つで改行になるはずですが、
+なぜか"\\\ "としないと改行になりません。
+テキストエディタの設定によっては末尾の空白が消えてしまうため、チルダを入れています
+-->
+
+数式にエラーが合った場合、赤文字でエラーを指摘してくれる場合があります
+$$
+x_{n+1} = x_n - \fraq{f(x_n)}{f'(x_n) - \frac{f(x_n)f''(x_n)}{2f'(x_n)}}
+$$
+
+正しくは↓（ベイリー法の漸化式です）
+
+$$
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n) - \frac{f(x_n)f''(x_n)}{2f'(x_n)}}
+$$

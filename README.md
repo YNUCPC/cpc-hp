@@ -39,12 +39,14 @@
 
 ## 準備
 
-1. Hugoをインストール([参考](https://gohugo.io/getting-started/installing/))
+1. Hugoをインストール([参考](https://gohugo.io/getting-started/installing/))\*
 1. gitをインストール([参考](https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB))
 1. ローカルにリポジトリをクローンする
 ```
-git clone https://github.com/YNUCPC/cpc-hp.git
+git clone --recursive https://github.com/YNUCPC/cpc-hp.git
 ```
+
+\*Hugoのインストールをapt-getで行うとバージョンが合わない場合があるようです。
 
 ## ブログの記事の書き方
 #### 記事更新用のブランチを作成  
@@ -92,6 +94,7 @@ Shortcodeについては[こちら](https://gohugo.io/content-management/shortco
 
 - 簡単な（？）説明 https://anond.hatelabo.jp/20190203175803
 - もうちょっとちゃんと知りたい人は[サルでもわかるgit入門](https://backlog.com/ja/git-tutorial/)とかを読むと良いかもしれません
+- コマンドよりGUIの方が良いという人は、[Sourcetree](https://ja.atlassian.com/software/sourcetree)や[GitKraken](https://www.gitkraken.com/)などを使うと良いと思います
 
 #### ホームページの仕組みについて
 

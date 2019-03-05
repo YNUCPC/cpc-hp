@@ -39,6 +39,8 @@
 
 ## 準備
 
+**より詳しい説明は[こちら](/content/blog/howtopost.md)にあります**
+
 1. Hugoをインストール([参考](https://gohugo.io/getting-started/installing/))\*
 1. gitをインストール([参考](https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB))
 1. ローカルにリポジトリをクローンする

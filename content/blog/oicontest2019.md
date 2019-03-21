@@ -1,7 +1,7 @@
 ---
 title: "追いコンテスト2019 参加記"
 date: 2019-03-17T23:25:13+09:00
-draft: true
+draft: false
 tags: []
 categories: ["コンテスト参加記"]
 banner: "img/banners/oicontest2019.PNG"

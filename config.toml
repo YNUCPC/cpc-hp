@@ -3,6 +3,7 @@ languageCode = "ja-JP"
 title = "YNU.cpc -横浜国立大学競技プログラミング部-"
 theme = "universal"
 defaultContentLanguage = "ja"
+hasCJKLanguage = true
 
 paginate = 10
 pygmentsStyle = "friendly"

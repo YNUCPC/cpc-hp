@@ -4,6 +4,7 @@ date: 2019-03-17T23:25:13+09:00
 draft: false
 tags: []
 categories: ["コンテスト参加記"]
+author: NOSS
 banner: "img/banners/oicontest2019.PNG"
 ---
 

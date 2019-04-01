@@ -4,9 +4,8 @@ date: 2019-03-03T13:05:13+09:00
 draft: false
 tags: ["AtCoder"]
 categories: ["コンテスト参加記"]
+author: NOSS
 ---
-
-Writer: NOSS
 
 全国統一プログラミング王決定戦本戦(2019/2/17)に参加してきました。
 

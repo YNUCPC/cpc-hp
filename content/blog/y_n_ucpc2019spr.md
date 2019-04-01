@@ -4,6 +4,7 @@ date: 2019-03-27T14:54:02+09:00
 draft: false
 tags: ["合宿"]
 categories: ["コンテスト参加記"]
+author: ニクロー
 banner: "img/blog/y_n_ucpc2019spr/snow.JPG"
 ---
 

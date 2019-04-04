@@ -79,10 +79,10 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
 
-  <!-- Facebook OpenGraph tags -->
-  <meta property="og:title" content="{{ .Title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ .URL }}/" />
-  <meta property="og:image" content="{{ .Site.Params.logo }}" />
+  <!-- Open Graph Template -->
+  {{ template "_internal/opengraph.html" . }}
+
+  <!-- Twitter Cards Template -->
+  {{ template "_internal/twitter_cards.html" . }}
 
 </head>

@@ -4,5 +4,6 @@ date: {{ .Date }}
 draft: true
 tags: []
 categories: []
+author: ""
 images: []
 ---

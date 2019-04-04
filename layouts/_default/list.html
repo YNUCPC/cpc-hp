@@ -41,8 +41,8 @@
                                     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          {{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}author/{{ .Params.author | urlize | lower }}">{{ .Params.author }}</a>
+                                          {{ with .Params.author }}
+                                          {{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}author/{{ . | urlize | lower }}">{{ . }}</a>
                                           {{ end }}
                                           {{ if isset .Params "categories" }}
                                           {{ if gt (len .Params.categories) 0 }}

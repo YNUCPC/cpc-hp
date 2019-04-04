@@ -5,7 +5,7 @@ draft: true
 tags: ["sample tag1", "sample tag2"]
 categories: ["sample category"]
 author: sample author
-banner: "img/banners/logo.png"
+images: ["img/banners/logo.png"]
 ---
 
 サンプル記事
@@ -41,7 +41,7 @@ draft: ←下書きか否か。trueの場合下書きになり、表示されな
 tags: ←記事のタグです。何個でも指定できます
 categories: ←記事のカテゴリです。こちらも何個でも指定できます
 author: ←記事の著者です。一人だけ指定できます。
-banner: ←記事のサムネイルです。/staticディレクトリ以下にある画像ファイルを指定するとサムネイルが設定され、記事一覧ページに表示されます
+images: ←記事のサムネイルです。/staticディレクトリ以下にある画像ファイルを指定するとサムネイルが設定され、記事一覧ページに表示されます。また、twitter cardにも使用されます。一応複数指定でき、1枚目がサムネイルとして使用されます。2枚目以降はtwitter cardなどで使用されます。
 ```
 
 * * *

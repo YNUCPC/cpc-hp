@@ -5,7 +5,7 @@ draft: false
 tags: ["合宿"]
 categories: ["コンテスト参加記"]
 author: ニクロー
-banner: "img/blog/y_n_ucpc2019spr/snow.JPG"
+images: ["img/blog/y_n_ucpc2019spr/snow.JPG"]
 ---
 
 こんにちは、ニクローです。  

@@ -50,7 +50,9 @@ pygmentsCodeFences = true
     viewMorePostLink = "/blog/"
     author = "YNU.cpc"
     defaultKeywords = ["YNU", "CPC", "競プロ", "競技プログラミング"]
-    defaultDiscription = "横浜国立大学競技プログラミング部"
+    defaultDescription = "横浜国立大学競技プログラミング部"
+    description = "横浜国立大学競技プログラミング部"
+    images = ["img/banners/logo.png"]
 
     # Google Maps API key
     #googleMapsApiKey = ""

@@ -23,8 +23,12 @@
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
                         <a href="{{ .Permalink }}">
-                          {{ if isset .Params "banner" }}
-                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="{{ .Title }}">
+                          {{ if isset .Params "images" }}
+                          {{ if gt (len .Params.images) 0 }}
+                            <img src="{{ .Site.BaseURL}}{{ index .Params.images 0 }}" class="img-responsive" alt="{{ .Title }}">
+                          {{ else }}
+                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="{{ .Title }}">
+                          {{ end }}
                           {{ else }}
                             <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="{{ .Title }}">
                           {{ end }}

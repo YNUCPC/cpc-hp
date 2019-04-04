@@ -4,7 +4,7 @@ date: 2018-04-15T14:42:07+09:00
 draft: false
 tags: ["VSCode", "環境構築", "macOS"]
 categories: ["競技プログラミング入門"]
-banner: "img/banners/vscode.png"
+images: ["img/banners/vscode.png"]
 ---
 
 入門者向けに競技プログラミングのはじめ方について説明します.  

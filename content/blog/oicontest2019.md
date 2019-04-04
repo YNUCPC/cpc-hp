@@ -5,7 +5,7 @@ draft: false
 tags: []
 categories: ["コンテスト参加記"]
 author: NOSS
-banner: "img/banners/oicontest2019.PNG"
+images: ["img/banners/oicontest2019.PNG"]
 ---
 
 こんにちは、NOSSです。  

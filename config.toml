@@ -35,6 +35,11 @@ pygmentsCodeFences = true
 
 [[menu.main]]
     weight = 4
+    name = "Contest"
+    url = "/contests/"
+
+[[menu.main]]
+    weight = 5
     name = "Contact"
     url = "/contact/"
 

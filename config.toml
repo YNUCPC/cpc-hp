@@ -34,8 +34,21 @@ pygmentsCodeFences = true
     url = "/blog/"
 
 [[menu.main]]
+    identifier = "contest"
     weight = 4
-    name = "Contest"
+    name = "Contests"
+    # url = "/contests/"
+
+[[menu.main]]
+    parent = "contest"
+    weight = 1
+    name = "2019年度"
+    url = "/contests/2019/"
+
+[[menu.main]]
+    parent = "contest"
+    weight = 2
+    name = "年度一覧"
     url = "/contests/"
 
 [[menu.main]]

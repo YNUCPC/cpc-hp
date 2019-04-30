@@ -24,3 +24,32 @@ h4 {
 .box-simple {
   min-height: 230px;
 }
+
+
+/*
+ * Accordion
+ * Ref: http://kachibito.net/css/using-the-html5-details-tag-for-faqs
+ */
+
+summary {
+  display: block;
+  outline: none;
+}
+summary::before {
+  display: inline-block;
+  content: "›";
+  margin-right: 0.1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: all 300ms ease;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+details[open] summary {
+  color: #4fbfa8;
+  transition: all 300ms ease;
+}
+details[open] summary::before {
+  transform: rotate(90deg);
+}

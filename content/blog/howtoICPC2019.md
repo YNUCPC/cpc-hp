@@ -47,7 +47,7 @@ g++ test.cpp -o test.out
 競技ページからテストケースを実行プログラムがあるフォルダにダウンロードします。このファイル名を`Ain`として
 
 ```
-test.out < Ain > Aout
+./test.out < Ain > Aout
 ```
 
 とすると、`test.out`に`Ain`を入力したときの結果が`Aout`に出力されます。
@@ -95,7 +95,7 @@ cd C:\Users\NOSS\source\repos\ProblemA
 と入力します。すると、そのフォルダに移動できます。この状態で
 
 ```
-test.exe < Ain > Aout
+./test.exe < Ain > Aout
 ```
 
 とすると、`test.exe`に`Ain`を入力したときの結果が`Aout`に出力されます。

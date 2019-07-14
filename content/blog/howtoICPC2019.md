@@ -2,8 +2,8 @@
 title: "ICPCの解答提出方法について"
 date: 2019-07-12T09:13:07+09:00
 draft: false
-tags: []
-categories: []
+tags: ["ICPC"]
+categories: ["競技プログラミング入門"]
 author: "NOSS"
 images: []
 ---

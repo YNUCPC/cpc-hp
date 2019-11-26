@@ -22,8 +22,6 @@ images: ["img/banners/icpc2019regional.jpg"]
 
 その後、全チームのチーム紹介が行われました。今回は辞書順で後ろからだったため「Yokohama National University」の私たちがトップバッターとなりました。来年以降はもう少し準備をしたほうが良いかもしれません...
 
-{{< figure src="/img/blog/icpc2019regional/desk.jpg" width="350" caption="チームに与えられたテーブル" >}}
-
 {{< tweet 1195580782716211200 >}}
 
 ## 二日目

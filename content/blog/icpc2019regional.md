@@ -5,7 +5,7 @@ draft: false
 tags: ["ICPC"]
 categories: ["コンテスト参加記"]
 author: "NOSS"
-images: ["img/banners/icpc2019regional.JPG"]
+images: ["img/banners/icpc2019regional.jpg"]
 ---
 
 11月16-18日に開催されたICPC 2019 Asia Yokohama Regional ContestにチームEldoradoとして参加してきました。

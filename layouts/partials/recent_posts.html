@@ -7,7 +7,8 @@
             <div class="heading text-center">
                 <h2>{{ .Site.Params.recent_posts.title }}</h2>
             </div>
-
+        </div>
+        <div class="col-md-9 col-sm-6">
             <p class="lead">
               {{ .Site.Params.recent_posts.subtitle | markdownify }}
             </p>
@@ -17,8 +18,8 @@
             <div class="row">
 
                 {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
-                {{ range first 4 $posts.Pages }}
-                <div class="col-md-3 col-sm-6">
+                {{ range first 3 $posts.Pages }}
+                <div class="col-md-4 col-sm-12">
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
@@ -65,6 +66,13 @@
             <!-- *** BLOG HOMEPAGE END *** -->
 
         </div>
+
+        <!-- Twitter Timeline -->
+        
+        <div class="col-md-3 col-sm-6">
+            <a class="twitter-timeline" data-height="600" href="https://twitter.com/ynu_cpc?ref_src=twsrc%5Etfw">Tweets by ynu_cpc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
     </div>
     <!-- /.container -->
 </section>

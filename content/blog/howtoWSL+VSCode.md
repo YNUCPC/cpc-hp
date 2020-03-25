@@ -1,7 +1,7 @@
 ---
 title: "WSL+VSCodeで競技プログラミング環境構築"
 date: 2020-03-24T21:23:10+09:00
-draft: true
+draft: false
 tags: ["VSCode","Windows","環境構築"]
 categories: ["競技プログラミング入門"]
 author: "NOSS"

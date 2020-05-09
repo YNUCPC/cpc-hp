@@ -45,7 +45,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 <details>
 <summary>**Q. 初心者でも大丈夫ですか？**</summary>
 
->**A. 大丈夫です**  
+>**A. はい、大丈夫です**  
 部員も大学からプログラミングを始めた人が大半を占めています。
 
 </details>
@@ -53,16 +53,17 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 <details>
 <summary>**Q. 必要なものは何ですか？**</summary>
 
->**A. ノートPCのみ**  
-活動する上で必要なものはノートPCだけです。どこからでも気軽に参加できます。
+>**A. ノートPCとインターネット**  
+活動する上で必要なものはノートPCとインターネットだけです。どこからでも気軽に参加できます。
 
 </details>
 
 <details>
 <summary>**Q. プログラミング言語は何を使用しますか？**</summary>
 
->**A. 主に C++**  
-競技プログラミングでは実行速度が高速なC++が主に使われています。私たちの部でもC++を使用している人が大半です。
+>**A. C++ または Python**  
+競技プログラミングでは実行速度が高速なC++が主に使われています。また、Pythonも人気になりつつあります。  
+私たちの部ではC++を使用している人が多いです。
 
 </details>
 
@@ -77,11 +78,12 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 <details>
 <summary>**Q. サークルを兼ねることはできますか？**</summary>
 
->**A. できます**  
+>**A. はい、できます**  
 活動は平日は週1なので他のサークルと兼ねるのも可能です。
 
 </details>
 
+<!--
 <details>
 <summary>**Q. 入部するのに必要な手続きはありますか？**</summary>
 
@@ -89,22 +91,37 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 年度の初めに部員名簿への記入をお願いすることがありますが、名簿に名前がなくても活動には参加できます。
 
 </details>
+-->
 
 <details>
 <summary>**Q. 新入生ではないのですが、今から参加できますか？**</summary>
 
->**A. できます**   
-学年・学部問わず一年中新入部員を募集しています。
+>**A. はい、できます**  
+学年・学部問わず、いつでも新入部員を募集しています。
+
+</details>
+
+<details>
+<summary>**Q. なにから始めればよいですか？**</summary>
+
+>**A. まずはAtCoderに登録しましょう**  
+日本では[AtCoder](https://atcoder.jp/)というコンテストサイトが最も人気で内容も充実しています。  
+ここでC++入門教材や練習問題に取り組んでみましょう。
+>
+- [AtCoderチュートリアル](https://atcoder.jp/posts/37)
+- [C++入門教材](https://atcoder.jp/contests/APG4b)
+- [練習問題](https://beta.atcoder.jp/contests/abs)
 
 </details>
 
 <details>
 <summary>**Q. Webサービス、ゲームなどを作りたいのですが、競技プログラミングの経験は役に立ちますか？**</summary>
 
->**A. 直接は役に立たないかもしれません**  
-ですが、  
 
->- 実装力が鍛えられる
+>**A. 直接は役に立たないかもしれません**  
+ですが、
+>
+- 実装力が鍛えられる
 - 処理の重い部分を見つけて高速な実装に置き換えることが出来るようになる
 - ライブラリやフレームワークなどの実装に使用されているアルゴリズム・データ構造への理解が深まる
 

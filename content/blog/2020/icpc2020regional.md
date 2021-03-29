@@ -31,6 +31,10 @@ ICPCでは、国内予選が行われ、その予選を突破したチームが�
 今年はアジア地区大会突破とはなりませんでしたが、これからも努力を続けアジア地区大会の突破を目指します。  
 今後も応援どうぞよろしくお願いいたします。
 
+<center>
+{{< figure src="/img/blog/icpc2020regional/ranking.jpg" width="600" caption="ICPC2020順位表">}}
+</center>
+
 ### その他
 
 - 30位として、LegalForce様から企業賞としてキーボードがいただけることになりました！([詳細](https://icpc.iisf.or.jp/2020-yokohama/sponsors/ajiatikutaikaikigyousyoukekka/))

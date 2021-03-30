@@ -4,10 +4,11 @@ draft: false
 id: "contact"
 ---
 
-連絡先：ynu.cpc@gmail.com  
-Twitter: [@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja)
+### お問い合わせ
 
-なにかご質問等あれば、上記の連絡先まで直接メールを送るか、  
-ツイッターアカウントにリプライ or DMをください。
-以下のフォームからご連絡くださっても構いません。
-(上記メールアドレスに届きます)
+なにかご質問等あれば、下記の連絡先で受け付けております。  
+メールフォームからも連絡可能です。
+(下記メールアドレスに届きます)
+
+- メール : ynu.cpc at gmail.com  
+- Twitter : [@ynu_cpc](https://twitter.com/ynu_cpc)

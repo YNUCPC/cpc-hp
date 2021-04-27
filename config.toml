@@ -53,6 +53,12 @@ pygmentsCodeFences = true
 
 [[menu.main]]
     parent = "contest"
+    weight = 1
+    name = "2021年度"
+    url = "/contests/2021/"
+
+[[menu.main]]
+    parent = "contest"
     weight = 2
     name = "年度一覧"
     url = "/contests/"

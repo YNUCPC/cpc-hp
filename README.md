@@ -1,4 +1,4 @@
-# cpc-hp [![Build Status](https://travis-ci.org/YNUCPC/cpc-hp.svg?branch=master)](https://travis-ci.org/YNUCPC/cpc-hp)
+# cpc-hp [![Build Status](https://travis-ci.com/YNUCPC/cpc-hp.svg?branch=master)](https://travis-ci.com/YNUCPC/cpc-hp)
 
 
 横浜国立大学競技プログラミング部のホームページのソースです。

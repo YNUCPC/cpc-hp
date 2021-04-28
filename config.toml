@@ -137,3 +137,7 @@ pygmentsCodeFences = true
     enable = true
     title = "最新の投稿"
     subtitle = "ブログの最新の投稿です。"
+
+# Enable inline HTML in Markdown files
+[markup.goldmark.renderer]
+unsafe = true

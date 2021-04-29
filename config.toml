@@ -96,7 +96,7 @@ pygmentsCodeFences = true
     about_us = """競技プログラミングに取り組む横浜国立大学の公認サークルです。
     詳しくは<a href="/about/">こちら</a>
     """
-    copyright = "Copyright (c) 2018-2019, YNU.cpc; all rights reserved."
+    copyright = "Copyright (c) 2018-2021, YNU.cpc; all rights reserved."
 
     # Format dates with Go's formatting
     date_format = "2006-01-02"

@@ -102,3 +102,10 @@ Shortcodeについては[こちら](https://gohugo.io/content-management/shortco
 
 静的サイトジェネレータのHugoで作ったページを[Github Pages](https://pages.github.com/)で公開しています。  
 masterブランチにcommitすると、[Travis CI](https://travis-ci.org/)が自動的に[ynucpc.github.io](https://github.com/YNUCPC/ynucpc.github.io)リポジトリに[デプロイ](https://www.weblio.jp/content/%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4)してくれます。
+
+#### バージョン関係
+
+|name|version|
+|:-|:-|
+|[hugo](https://github.com/gohugoio/hugo/releases/tag/v0.82.1)|v0.82.1
+|[hugo-universal-theme](https://github.com/devcows/hugo-universal-theme/releases/tag/1.1.2)|1.1.2|

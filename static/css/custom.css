@@ -25,6 +25,39 @@ h4 {
   min-height: 230px;
 }
 
+.home-carousel {
+  position: relative;
+  background: url('../img/carousel_back.jpg') center center repeat;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 0;
+  position: relative;
+  background: url('../img/carousel_back.jpg') center center repeat;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#blog-post table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+#blog-post table tr {
+  border-top: 1px solid #c6cbd1;
+}
+#blog-post table th,
+#blog-post table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
 
 /*
  * Accordion

@@ -56,7 +56,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 #### FAQ
 
 <details>
-<summary>**Q. 初心者でも大丈夫ですか？**</summary>
+<summary><strong>Q. 初心者でも大丈夫ですか？</strong></summary>
 
 >**A. はい、大丈夫です**  
 部員も大学からプログラミングを始めた人が大半を占めています。
@@ -64,7 +64,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 </details>
 
 <details>
-<summary>**Q. 必要なものは何ですか？**</summary>
+<summary><strong>Q. 必要なものは何ですか？</strong></summary>
 
 >**A. ノートPCとインターネット**  
 活動する上で必要なものはノートPCとインターネットだけです。どこからでも気軽に参加できます。
@@ -72,7 +72,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 </details>
 
 <details>
-<summary>**Q. プログラミング言語は何を使用しますか？**</summary>
+<summary><strong>Q. プログラミング言語は何を使用しますか？</strong></summary>
 
 >**A. C++ または Python**  
 競技プログラミングでは実行速度が高速なC++が主に使われています。また、Pythonも人気になりつつあります。  
@@ -81,7 +81,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 </details>
 
 <details>
-<summary>**Q. 部費はありますか？**</summary>
+<summary><strong>Q. 部費はありますか？</strong></summary>
 
 >**A. ありません**  
 無料です。
@@ -89,7 +89,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 </details>
 
 <details>
-<summary>**Q. サークルを兼ねることはできますか？**</summary>
+<summary><strong>Q. サークルを兼ねることはできますか？</strong></summary>
 
 >**A. はい、できます**  
 活動は平日は週1なので他のサークルと兼ねるのも可能です。
@@ -107,7 +107,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 -->
 
 <details>
-<summary>**Q. 新入生ではないのですが、今から参加できますか？**</summary>
+<summary><strong>Q. 新入生ではないのですが、今から参加できますか？</strong></summary>
 
 >**A. はい、できます**  
 学年・学部問わず、いつでも新入部員を募集しています。
@@ -115,7 +115,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 </details>
 
 <details>
-<summary>**Q. なにから始めればよいですか？**</summary>
+<summary><strong>Q. なにから始めればよいですか？</strong></summary>
 
 >**A. まずはAtCoderに登録しましょう**  
 日本では[AtCoder](https://atcoder.jp/)というコンテストサイトが最も人気で内容も充実しています。  
@@ -128,7 +128,7 @@ twitter([@ynu_cpc](https://twitter.com/ynu_cpc?lang=ja))
 </details>
 
 <details>
-<summary>**Q. Webサービス、ゲームなどを作りたいのですが、競技プログラミングの経験は役に立ちますか？**</summary>
+<summary><strong>Q. Webサービス、ゲームなどを作りたいのですが、競技プログラミングの経験は役に立ちますか？</strong></summary>
 
 
 >**A. 直接は役に立たないかもしれません**  

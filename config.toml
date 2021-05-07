@@ -79,7 +79,7 @@ pygmentsCodeFences = true
 [params]
     viewMorePostLink = "/blog/"
     author = "YNU.cpc"
-    defaultKeywords = ["YNU", "CPC", "競プロ", "競技プログラミング"]
+    defaultKeywords = ["YNU", "CPC", "競プロ", "競技プログラミング", "サークル", "横浜国立大学"]
     defaultDescription = "横浜国立大学競技プログラミング部"
     description = "横浜国立大学競技プログラミング部"
     images = ["img/banners/logo.png"]
@@ -96,12 +96,13 @@ pygmentsCodeFences = true
     about_us = """競技プログラミングに取り組む横浜国立大学の公認サークルです。
     詳しくは<a href="/about/">こちら</a>
     """
-    copyright = "Copyright (c) 2018-2019, YNU.cpc; all rights reserved."
+    copyright = "Copyright (c) 2018-2021, YNU.cpc; all rights reserved."
 
     # Format dates with Go's formatting
     date_format = "2006-01-02"
 
     logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
     #address = ""
     #latitude = ""
     #longitude = ""
@@ -143,3 +144,7 @@ pygmentsCodeFences = true
     enable = true
     title = "最新の投稿"
     subtitle = "ブログの最新の投稿です。"
+
+# Enable inline HTML in Markdown files
+[markup.goldmark.renderer]
+unsafe = true

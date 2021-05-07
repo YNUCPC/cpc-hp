@@ -17,7 +17,7 @@
 
             <div class="row">
 
-                {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
+                {{ $posts := .Paginate (where site.RegularPages "Type" "blog") }}
                 {{ range first 3 $posts.Pages }}
                 <div class="col-md-4 col-sm-12">
                     <div class="box-image-text blog">
@@ -25,12 +25,12 @@
                             <div class="image" style="overflow:hidden">
                                 {{ if isset .Params "images" }}
                                 {{ if gt (len .Params.images) 0 }}
-                                <img src="{{ .Site.BaseURL}}{{ index .Params.images 0 }}" class="img-responsive" alt="" >
+                                <img src="{{ index .Params.images 0 | relURL }}" class="img-responsive" alt="" >
                                 {{ else }}
-                                <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                 {{ end }}
                                 {{ else }}
-                                <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                 {{ end }}
                             </div>
                             <div class="bg"></div>
@@ -45,7 +45,7 @@
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <p class="author-category">
                             {{ with .Params.author }}
-                            {{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}author/{{ . | urlize | lower }}">{{ . }}</a>
+                            {{ i18n "authorBy" }} <a href="{{ "author/" | relURL }}{{ . | urlize | lower }}">{{ . }}</a>
                             {{ end }}
                             {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
                             </p>

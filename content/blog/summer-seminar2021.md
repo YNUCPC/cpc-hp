@@ -5,7 +5,7 @@ draft: false
 tags: []
 categories: ["活動日誌"]
 author: "KY2001"
-images: []
+images: [img/banners/post20210907.png]
 ---
 数え上げ・数学に関する有志の勉強会を行いました。  
 比較的高度なものまで取り扱い, 非常に充実したものとなりました！

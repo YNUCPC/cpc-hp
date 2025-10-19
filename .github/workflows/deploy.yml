@@ -1,0 +1,33 @@
+name: Build and deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master    # もし master を使っているなら main→master に変更
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'   # もしくは '0.151.0' のように固定
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_dir: ./public
+          publish_branch: gh-pages
+          # GitHub Token を使う → 追加のシークレット不要
+          github_token: ${{ secrets.GITHUB_TOKEN }}

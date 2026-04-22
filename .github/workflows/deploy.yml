@@ -19,7 +19,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'   # もしくは '0.151.0' のように固定
+          hugo-version: '0.82.1'   # 'latest'から'0.82.1'に変更
+          extended: true
 
       - name: Build
         run: hugo --minify

@@ -1,4 +1,4 @@
-baseURL = "https://ynucpc.github.io/"
+baseURL = "https://ynucpc.github.io/cpc-hp/"
 languageCode = "ja-JP"
 title = "YNU.cpc -横浜国立大学競技プログラミング部-"
 theme = "universal"
